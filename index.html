@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>顏色接球遊戲</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="game-title">勝行科技-智慧團康AI</h1>
+        <div class="game-container">
+            <div class="game-info">
+                <div class="score">分數: <span id="score">0</span></div>
+                <div class="level">關卡: <span id="level">1</span></div>
+                <div class="lives">生命: <span id="lives">10</span></div>
+            </div>
+            <div id="game-area">
+                <div id="paddle"></div>
+            </div>
+            <div class="controls">
+                <div class="instructions">使用鍵盤左右鍵移動檔板</div>
+                <div class="ble-controls">
+                    <button id="ble-connect" class="ble-button">連接快樂動</button>
+                    <div id="ble-status" class="ble-status">未連接</div>
+                </div>
+            </div>
+            <div class="game-over hidden" id="game-over">
+                <h2>遊戲結束</h2>
+                <p>最終分數: <span id="final-score">0</span></p>
+                <button id="restart-button">開始遊戲</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
