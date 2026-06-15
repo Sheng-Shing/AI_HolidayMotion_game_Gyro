@@ -250,7 +250,7 @@ function handleBLEValue(event) {
 
         // 更新操作說明文字
         const instructionsElement = document.querySelector('.instructions');
-        instructionsElement.textContent = '握壓紅色球左移,轉手右移';
+        instructionsElement.textContent = '握壓軟球左移,轉手右移';
 
         console.log('BLE connected successfully');
     }
