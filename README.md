@@ -61,8 +61,8 @@ Characteristic UUID: 0000fff2-0000-1000-8000-00805f9b34fb
 
 一般資料封包中：
 
-- `data[2..4]`：左側壓力值，24-bit big-endian
-- `data[11..16]`：右側三軸陀螺儀
+- `data[2..4]`：壓力值，24-bit big-endian
+- `data[11..16]`：三軸陀螺儀
 
 三軸陀螺儀解析：
 
